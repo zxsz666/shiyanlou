@@ -6,7 +6,7 @@ tax = int(sys.argv[1])- 3500
 
 if tax <= 1500:
     fee = tax * 0.03 - 0.00
-    print(format(fee,".2f")
+    print(format(fee,".2f"))
 
 if tax > 1500 and tax <= 4500:
     fee = tax * 0.10 - 105
